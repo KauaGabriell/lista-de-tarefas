@@ -1,19 +1,19 @@
 Projeto Lista de Tarefas (To-Do List) 📝
 Uma aplicação web simples de lista de tarefas (To-Do List) criada com HTML, CSS e JavaScript puro. Este projeto foi desenvolvido como um exercício prático para solidificar conceitos avançados de manipulação de arrays e gerenciamento de estado no front-end.
 
-✨ Visão Geral do Projeto
-🚀 Funcionalidades
+✨ Visão Geral do Projeto:
+🚀 Funcionalidades:
 Adicionar Tarefas: Campo de texto para inserir novas tarefas, com validação para não permitir entradas vazias ou com caracteres especiais.
 Remover Tarefas: Botão individual para excluir tarefas da lista.
 Marcar como Concluída: Funcionalidade de clique para marcar/desmarcar uma tarefa como concluída, aplicando um estilo visual (riscado).
 Interface Reativa: A lista de tarefas na tela é atualizada dinamicamente a cada ação do usuário.
 
-🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas:
 HTML5
 CSS3
 JavaScript (ES6+)
 
-🧠 Conceitos Praticados
+🧠 Conceitos Praticados:
 Este projeto foi uma oportunidade para praticar e aprofundar os seguintes conceitos de JavaScript e arquitetura de front-end:
 Gerenciamento de Estado com "Fonte Única da Verdade":
 Toda a aplicação é controlada por um único array de objetos (arrayTarefas). A interface do usuário (o DOM) é sempre um reflexo direto deste estado, nunca sendo manipulada diretamente. O fluxo é sempre: Ação do Usuário → Modifica o Estado (Array) → Renderiza a Tela.
