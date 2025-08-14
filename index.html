@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Lista de Tarefas</h1>
+            <p>Organize suas atividades do dia</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <form id="task-form">
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="task-input" 
+                            placeholder="Digite uma nova tarefa..."
+                            maxlength="100"
+                        >
+                        <button type="submit" id="add-task-btn">
+                            <span>+</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="tasks-section">
+                <div class="tasks-header">
+                    <h2>Suas Tarefas</h2>
+                    <div class="tasks-stats">
+                        <span id="total-tasks">0</span> tarefas
+                    </div>
+                </div>
+
+                <div class="tasks-container">
+                    <ul id="tasks-list">
+                        <!-- As tarefas serão adicionadas aqui via JavaScript -->
+                    </ul>
+                    
+                    <div id="empty-state" class="empty-state">
+                        <div class="empty-icon">📋</div>
+                        <p>Nenhuma tarefa ainda</p>
+                        <span>Adicione sua primeira tarefa acima!</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Lista de Tarefas</p>
+        </footer>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
