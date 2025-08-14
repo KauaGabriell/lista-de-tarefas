@@ -2,10 +2,6 @@ Projeto Lista de Tarefas (To-Do List) 📝
 Uma aplicação web simples de lista de tarefas (To-Do List) criada com HTML, CSS e JavaScript puro. Este projeto foi desenvolvido como um exercício prático para solidificar conceitos avançados de manipulação de arrays e gerenciamento de estado no front-end.
 
 ✨ Visão Geral do Projeto
-
-C:\Users\kauag\estudos-dev\projetos\lista-de-tarefas\assets\image.png
-
-
 🚀 Funcionalidades
 Adicionar Tarefas: Campo de texto para inserir novas tarefas, com validação para não permitir entradas vazias ou com caracteres especiais.
 Remover Tarefas: Botão individual para excluir tarefas da lista.
